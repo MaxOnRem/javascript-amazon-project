@@ -1,5 +1,4 @@
-// a variable to save the data (inforamtion) to represent a list using oblject to group multiple values of a product
-
+// a variable to save the data (inforamtion) to represent a list using an array of products where each product is represented by an object
 const products = [
   {
     id: 'e43638ce-6aa0-4b85-b27f-e1d07eb678c6',

@@ -60,6 +60,7 @@ addToCartButtons.forEach((button) => {
   // listen for a click on each button
   // a function like a recipe for what to do when a click happens
   button.addEventListener('click', () => {
+    // dataset is a way to access data attributes on an element
     const productId = button.dataset.productId;
 
     let matchingCartItem;
