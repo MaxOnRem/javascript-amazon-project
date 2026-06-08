@@ -77,6 +77,12 @@ addToCartButtons.forEach((button) => {
       cart.push({ productId: productId, quantity: 1 });
     }
 
-    console.log(cart);
+    let cartQuantity = 0;
+
+    cart.forEach((cartItem) => {
+      cartQuantity += cartItem.quantity;
+    });
+
+    document.querySelector('.js-cart-quantity').innerHTML = cartQuantity;
   });
 });
